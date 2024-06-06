@@ -5,7 +5,7 @@
 # 一、启动
 1. 上电后连接电脑USB，电脑应当能检测到USB设备
 2. Win+R弹出“运行”窗口，输入cmd进入命令行，再输入odrivetool并回车即可进入ODrive交互式工具`odrivetool`，使用的是Python语言，弹出湖蓝色的**Connected to ODrive v3.6 386535653331 (firmware v0.5.1) as odrv0**表示连接成功。
-![[Pasted image 20240604212021.png]]
+
 	上电第一步使用
 ```python
 odrv0.vbus_voltage
@@ -346,7 +346,7 @@ odrivetool restore-config my_config.json
 odrivetool liveplotter
 ```
 即可打开可视化界面，默认情况下，启动时绘制两个参数；轴1和轴2的编码器位置。
-![[Pasted image 20240604221813.png]]
+
 		要修改绘制的参数，可以要使用文本编辑器更改绘制的参数，请打开odrivetool（位于`Anaconda3Scripts`或`ODrive-mastertools`中）并修改liveplotter函数：
 ```python
 # If you want to plot different values, change them here.
