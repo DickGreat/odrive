@@ -365,6 +365,8 @@ cancellation_token = start_liveplotter(lambda: [
     ((odrv0.axis0.motor.current_control.Iq_setpoint * my_odrive.axis0.motor.config.torque_constant), # Torque [Nm]
 ])
 ```
+![Pasted image 20240604221813](https://github.com/DickGreat/odrive/assets/171357832/2114b1da-2b9a-4bb0-808a-99bac74975bb)
+
 可绘制axis0的近似电机扭矩(Nm)和速度(RPM)。
 想要停止的话按ctrl+C，会弹出“终止批处理操作吗(Y/N)?”，再输入y后回车即可。
 ### odrivetool中：（推荐）
