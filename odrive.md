@@ -112,6 +112,10 @@ odrv0.axis0.controller.input_pos = 10
   						#设置以速度为5运转
   
   ```
+  > 参考文章：
+  >
+  > + [ODrive应用 #1 ODrive入门指南_odrive from .libfibre import domain, objectlosterr-CSDN博客](https://blog.csdn.net/abf1234444/article/details/103325808?spm=1001.2014.3001.5506)
+  > + [【电机控制】OdriveFOC-无刷电机控制（指令篇——配置0.5.6版本！）_odrive 设置教程-CSDN博客](https://blog.csdn.net/qq_42681425/article/details/132390245?spm=1001.2014.3001.5506)
 
 ## $\color{#0FF}{UART}$
 
@@ -284,10 +288,7 @@ w axis0.controller.input_pos -123.456
 > + `sr`- 重启
 > + `sc`- 清除错误
 
-  > 参考文章：
-  >
-  > + [ODrive应用 #1 ODrive入门指南_odrive from .libfibre import domain, objectlosterr-CSDN博客](https://blog.csdn.net/abf1234444/article/details/103325808?spm=1001.2014.3001.5506)
-  > + [【电机控制】OdriveFOC-无刷电机控制（指令篇——配置0.5.6版本！）_odrive 设置教程-CSDN博客](https://blog.csdn.net/qq_42681425/article/details/132390245?spm=1001.2014.3001.5506)
+
 
 ## $\color{#F0A}{参考资料}$
 
