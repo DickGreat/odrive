@@ -375,4 +375,4 @@ cancellation_token = start_liveplotter(lambda: [
 start_liveplotter(lambda: [odrv0.axis0.encoder.pos_estimate])
 ```
 更改lambda函数中的参数即可查看任意想查看的参数，以下查看的是odrv0.axis0.encoder.pos_estimate参数随时间变化的值：
-![[Pasted image 20240604233145.png]]
+<img width="511" alt="image" src="https://github.com/DickGreat/odrive/assets/171357832/3053b91c-1cb8-409b-8237-e272f6248ba6">
