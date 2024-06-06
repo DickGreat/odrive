@@ -346,8 +346,8 @@ odrivetool restore-config my_config.json
 odrivetool liveplotter
 ```
 即可打开可视化界面，默认情况下，启动时绘制两个参数；轴1和轴2的编码器位置。
-
-		要修改绘制的参数，可以要使用文本编辑器更改绘制的参数，请打开odrivetool（位于`Anaconda3Scripts`或`ODrive-mastertools`中）并修改liveplotter函数：
+![Pasted image 20240604221813](https://github.com/DickGreat/odrive/assets/171357832/2114b1da-2b9a-4bb0-808a-99bac74975bb)
+要修改绘制的参数，可以要使用文本编辑器更改绘制的参数，请打开odrivetool（位于`Anaconda3Scripts`或`ODrive-mastertools`中）并修改liveplotter函数：
 ```python
 # If you want to plot different values, change them here.
 # You can plot any number of values concurrently.
@@ -365,7 +365,7 @@ cancellation_token = start_liveplotter(lambda: [
     ((odrv0.axis0.motor.current_control.Iq_setpoint * my_odrive.axis0.motor.config.torque_constant), # Torque [Nm]
 ])
 ```
-![Pasted image 20240604221813](https://github.com/DickGreat/odrive/assets/171357832/2114b1da-2b9a-4bb0-808a-99bac74975bb)
+
 
 可绘制axis0的近似电机扭矩(Nm)和速度(RPM)。
 想要停止的话按ctrl+C，会弹出“终止批处理操作吗(Y/N)?”，再输入y后回车即可。
