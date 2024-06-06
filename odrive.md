@@ -73,7 +73,7 @@ odrv0.axis0.controller.input_pos = 10
 
   ```python
   odrv0.erase_configuration()  #将配置重置为出厂默认值
-  odrv0.axis1.controller.config.enable_overspeed_error = False
+  odrv0.axis0.controller.config.enable_overspeed_error = False
   						#取消超速报错
   odrv0.config.dc_max_negative_current = -3 
   						#电源吸收电流的能力 单位(A)
